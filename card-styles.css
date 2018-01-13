@@ -1,0 +1,29 @@
+body {
+  max-width: 325px;
+}
+
+#fact {
+  font-style: italic;
+}
+
+ul li span {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card, .info {
+  border: 1px solid #c1c1c1;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 5px 5px 5px #d1d1d1;
+}
+
+.info {
+  margin-top: 10px;
+}
