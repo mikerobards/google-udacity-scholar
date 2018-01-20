@@ -1,16 +1,7 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+So I ditched the <form> since I'm still not up to speed with it. 
+  
+I changed it to a div, changed the submit input to a button, and ran with that. 
+  
+Used jQuery as much as I could. Didn't change the css at all. 
