@@ -18,7 +18,7 @@ $('#erase').click(function() {
 });
 
 // adds color to cells USING event listeners!
-$('#pixel_canvas').on('mouseover mousedown', function(evt) {
+$('#pixel_canvas').on('mouseover', function(evt) {
   evt.preventDefault();
   if (evt.which === 1) {
     if (erase === false) {
