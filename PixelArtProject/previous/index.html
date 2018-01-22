@@ -5,30 +5,30 @@
   <title>Pixel Art Maker!</title>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <h1>Lab: Pixel Art Maker</h1>
 
   <h2>Choose Grid Size</h2>
-  <form id="sizePicker">
+  <div id="sizePicker">
     Grid Height:
     <input type="number" id="input_height" name="height" min="1" value="1"> Grid Width:
     <input type="number" id="input_width" name="width" min="1" value="1">
-    <input type="submit">
-  </form>
+    <button>Submit</</button>
+  </div>
 
   <h2>Pick A Color</h2>
   <input type="color" id="colorPicker">
 
-  <h3>Click To Activate Erase Mode</h3>
-  <button id="erase">Erase!</button>
-
   <h2>Design Canvas</h2>
+
   <table id="pixel_canvas"></table>
 
-  <script src="assets/designs.js"></script>
+  <script src="designs.js"></script>
+
+
 </body>
 
 </html>
