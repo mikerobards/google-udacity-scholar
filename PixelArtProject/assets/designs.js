@@ -2,15 +2,7 @@ $(document).ready(function() {
 
   // variables
   const table = $('#pixel_canvas');
-  var color = $('#colorPicker').val();
   var erase = false;
-
-  // generates grid on submit
-  $('input[type=submit]').on('click', function(event) {
-    makeGrid();
-    event.preventDefault();
-    return false;
-  });
 
   // enables erase button
   $('#erase').click(function() {
@@ -23,8 +15,15 @@ $(document).ready(function() {
     }
   });
 
+  // generates grid on submit
+  $('input[type=submit]').on('click', function(event) {
+    makeGrid();
+    event.preventDefault();
+    return false;
+  });
+
   // adds color to cells using event listener
-  $('#pixel_canvas').on('mousedown', function(event) {
+  table.on('mousedown', function(event) {
     event.preventDefault();
     if (event.which === 1) {
       if (erase === false) {
